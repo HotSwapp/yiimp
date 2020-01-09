@@ -637,6 +637,7 @@ void coinbase_create(YAAMP_COIND *coind, YAAMP_JOB_TEMPLATE *templ, json_value *
 				json_int_t amount = json_get_int(coinbase_payload->u.array.values[i], "amount");
 				if (payee && amount) {
 					npayees++;
+					available -= amount;
 					script_pack_tx(coind, script_dests, amount, script);
 				}
 			}
