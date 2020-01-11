@@ -3,34 +3,43 @@ table.dataGrid
 {
 	border-collapse: collapse;
 	width: 100%;
-	color: #555;
+	color: #ffffff;
 }
 
 table.dataGrid a, table.dataGrid a:visited
 {
-	color: #306495;
+	color: #439548;
 }
+
+table.dataGrid a:hover
+{
+        color: #439548;
+        background: inherit;
+        text-decoration: underline;
+}
+
 
 table.dataGrid th, table.dataGrid td
 {
 	padding: 0.4em;
+	background-color: #0d0d0d;
 }
 
 table.dataGrid th
 {
-	border-bottom: 1px solid #eee;
-	background-color: #eee;
-	/*color: #555;*/
+	border-bottom: 1px solid #0d0d0d;
+	background-color: #439548;
+	color: #555;s
 }
 
 table.dataGrid tbody
 {
-	border: 1px solid #eee;
+	border: 1px solid #0d0d0d;
 }
 
 table.dataGrid td
 {
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid #0d0d0d;
 }
 
 table.dataGrid tr.bold
@@ -40,7 +49,7 @@ table.dataGrid tr.bold
 
 table.dataGrid th.tablesorter-headerAsc,
 table.dataGrid th.tablesorter-headerDesc {
-	color: blue;
+	color: #439548;
 	/* background-color: #D2E3FB; */
 }
 
@@ -50,7 +59,7 @@ table.dataGrid2
 {
 	border-collapse: collapse;
 	width: 100%;
-	color: #555;
+	color: #ffffff;
 }
 
 /*table.dataGrid2 a, table.dataGrid2 a:visited
@@ -62,20 +71,25 @@ table.dataGrid2 th, table.dataGrid2 td
 {
 	padding: 0.4em;
 	margin: 0.1em;
+	background-color: #0d0d0dd8;
+	
 }
 
 table.dataGrid2 th
 {
+
 }
 
 table.dataGrid2 tbody
 {
-	border: 1px solid #eee;
+	border: 1px solid #333;
 }
 
 table.dataGrid2 td
 {
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid #333;
+	color: #439548;
+	
 }
 
 table.dataGrid2 thead tr .header {
@@ -95,7 +109,7 @@ table.dataGrid2 thead tr .headerSortDown {
 
 table.dataGrid2 th.tablesorter-headerAsc,
 table.dataGrid2 th.tablesorter-headerDesc {
-	color: #306495;
+	color: #439548;
 	/* background-color: #D2E3FB; */
 }
 
@@ -131,13 +145,19 @@ table.reportgrid1 tr.bold
 
 /**********************************************/
 
+.ssrow
+{
+	background-color: #0d0d0d;
+	color: #ffffff;
+}
+
 .ssrow:hover
 {
-	background-color: #e3f0f8;
+	background-color: #2d2d2d86;
+	color: #0d0d0d;
 }
 
 .ssselected
 {
-	background-color: #d3e0e8;
+	background-color: #898989;
 }
-
